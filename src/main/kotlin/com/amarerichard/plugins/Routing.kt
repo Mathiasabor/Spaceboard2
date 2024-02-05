@@ -26,7 +26,7 @@ fun Application.configureRouting() {
            val jsonString = Json.encodeToString(list)
            RabbitMQFactory().sendMessage(jsonString.toByteArray())
 
-           call.respond(projectservice.getAllProject())
+           call.respond(jsonString)
        }
 
 
