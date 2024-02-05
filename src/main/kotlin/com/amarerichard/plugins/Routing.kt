@@ -10,11 +10,15 @@ import io.ktor.server.application.*
 
 fun Application.configureRouting() {
 
-    install(Routing){
+
+    routing {
+
         Projectroutes()
         Ticketlistroutes()
         Ticketroutes()
         RabbitMQFactory().defaultChannelAndQueue().listeningMessage()
-    }
 
+
+
+    }
 }
