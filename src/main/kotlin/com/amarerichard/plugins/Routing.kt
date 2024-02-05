@@ -16,8 +16,7 @@ fun Application.configureRouting() {
         Ticketroutes()
         RabbitMQFactory().defaultChannelAndQueue().listeningMessage()
 
-        get("/") {
-            call.respondText("Hello World!")
-        }
+
+
     }
 }
