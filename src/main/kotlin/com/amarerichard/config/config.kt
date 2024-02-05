@@ -3,8 +3,9 @@ package com.amarerichard.config
 
 
 object config {
-    const val DB_URL= "mongodb+srv://dbweb:9m7PFoGs2Z08npXH@cluster0.bmok3z9.mongodb.net/?retryWrites=true&w=majority"
-    const val DB_NAME ="dbweb"
+
+    const val DB_URL ="mongodb+srv://spaceboard:8xhhuVr3IT86ouaQ@cluster0.pako5n1.mongodb.net/?retryWrites=true&w=majority"
+    const val DB_NAME ="pepe7"
     const val EXCHANGE_NAME="jijiex"
     const val QUEUE_NAME ="jijiqueue"
     const val ROUTING_KEY="jijikey"
