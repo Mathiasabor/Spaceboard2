@@ -1,11 +1,11 @@
-package com.example.services
+package com.amarerichard.services
 
-import com.example.database.repository.TicketRepository
-import com.example.model.Ticket
-import com.example.model.callModel.cAllTicket
-import com.example.model.callModel.cDeleteTicket
-import com.example.model.callModel.cTicket
-import com.example.model.callModel.cUpdateTicket
+import com.amarerichard.database.repository.TicketRepository
+import com.amarerichard.model.Ticket
+import com.amarerichard.model.callModel.cAllTicket
+import com.amarerichard.model.callModel.cDeleteTicket
+import com.amarerichard.model.callModel.cTicket
+import com.amarerichard.model.callModel.cUpdateTicket
 import org.bson.types.ObjectId
 import java.util.Date
 

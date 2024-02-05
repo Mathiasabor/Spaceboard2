@@ -1,10 +1,10 @@
-package com.example.services
+package com.amarerichard.services
 
-import com.example.database.repository.TicketlistRepository
-import com.example.model.Ticketlist
-import com.example.model.callModel.cDeleteticketlist
-import com.example.model.callModel.cTicketlist
-import com.example.model.callModel.cUpdateTicketlist
+import com.amarerichard.database.repository.TicketlistRepository
+import com.amarerichard.model.Ticketlist
+import com.amarerichard.model.callModel.cDeleteticketlist
+import com.amarerichard.model.callModel.cTicketlist
+import com.amarerichard.model.callModel.cUpdateTicketlist
 import org.bson.types.ObjectId
 
 class Ticketlistservice {

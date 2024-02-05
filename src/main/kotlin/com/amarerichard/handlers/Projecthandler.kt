@@ -1,18 +1,15 @@
-package com.example.handlers
+package com.amarerichard.handlers
 
-import com.example.database.connection.Connection
-import com.example.model.Project
+import com.amarerichard.model.Project
 
-import com.example.model.callModel.cProject
+import com.amarerichard.model.callModel.cProject
 
-import com.example.services.Projectservice
-import com.example.utils.RabbitMQFactory
-import com.rabbitmq.tools.jsonrpc.JsonRpcMapper
+import com.amarerichard.services.Projectservice
+import com.amarerichard.utils.RabbitMQFactory
 import io.ktor.server.application.*
 import io.ktor.server.request.*
 import io.ktor.server.response.*
 import io.ktor.server.routing.*
-import kotlinx.coroutines.runBlocking
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 

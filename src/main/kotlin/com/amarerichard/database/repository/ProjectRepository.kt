@@ -1,13 +1,12 @@
-package com.example.database.repository
+package com.amarerichard.database.repository
 
-import com.example.database.connection.Connection
-import com.example.model.Project
+import com.amarerichard.database.connection.Connection
+import com.amarerichard.model.Project
 import com.mongodb.client.model.Filters
 import com.mongodb.client.model.UpdateOptions
 import com.mongodb.client.model.Updates
 import kotlinx.coroutines.flow.toList
 import org.bson.conversions.Bson
-import org.bson.types.ObjectId
 
 interface ProjectInterface {
     suspend fun addproject(project: Project) : String

@@ -1,10 +1,10 @@
-package com.example.handlers
+package com.amarerichard.handlers
 
-import com.example.model.callModel.cAllTicket
-import com.example.model.callModel.cDeleteTicket
-import com.example.model.callModel.cTicket
-import com.example.model.callModel.cUpdateTicket
-import com.example.services.Ticketservice
+import com.amarerichard.model.callModel.cAllTicket
+import com.amarerichard.model.callModel.cDeleteTicket
+import com.amarerichard.model.callModel.cTicket
+import com.amarerichard.model.callModel.cUpdateTicket
+import com.amarerichard.services.Ticketservice
 import io.ktor.server.application.*
 import io.ktor.server.request.*
 import io.ktor.server.response.*

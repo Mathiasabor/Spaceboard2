@@ -1,12 +1,9 @@
-package com.example.handlers
+package com.amarerichard.handlers
 
-import com.example.model.Project
-import com.example.model.callModel.cDeleteticketlist
-import com.example.model.callModel.cProject
-import com.example.model.callModel.cTicketlist
-import com.example.model.callModel.cUpdateTicketlist
-import com.example.services.Ticketlistservice
-import com.example.utils.RabbitMQFactory
+import com.amarerichard.model.callModel.cDeleteticketlist
+import com.amarerichard.model.callModel.cTicketlist
+import com.amarerichard.model.callModel.cUpdateTicketlist
+import com.amarerichard.services.Ticketlistservice
 import io.ktor.server.application.*
 import io.ktor.server.request.*
 import io.ktor.server.response.*

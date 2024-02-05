@@ -1,20 +1,13 @@
-package com.example.utils
+package com.amarerichard.utils
 
-import com.example.config.config
-import com.example.handlers.Controllers
-import com.example.model.callModel.cProject
-import com.example.services.Projectservice
+import com.amarerichard.config.config
+import com.amarerichard.model.callModel.cProject
 import com.rabbitmq.client.CancelCallback
 import com.rabbitmq.client.ConnectionFactory
 import com.rabbitmq.client.DeliverCallback
-import io.ktor.utils.io.core.*
-import kotlinx.coroutines.runBlocking
-import kotlinx.serialization.Serializable
 import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
-import kotlinx.serialization.json.JsonObject
-import kotlinx.serialization.json.encodeToJsonElement
 import kotlin.text.String
 import kotlin.text.toByteArray
 

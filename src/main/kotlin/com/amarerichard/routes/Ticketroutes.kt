@@ -1,6 +1,6 @@
-package com.example.routes
+package com.amarerichard.routes
 
-import com.example.handlers.Tickethandler
+import com.amarerichard.handlers.Tickethandler
 import io.ktor.server.routing.*
 
 fun Route.Ticketroutes()

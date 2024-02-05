@@ -1,11 +1,8 @@
-package com.example.services
+package com.amarerichard.services
 
-import com.example.database.repository.ProjectRepository
-import com.example.model.Project
-import com.example.model.callModel.cProject
-import kotlinx.serialization.json.Json
-import kotlinx.serialization.json.JsonElement
-import kotlinx.serialization.json.encodeToJsonElement
+import com.amarerichard.database.repository.ProjectRepository
+import com.amarerichard.model.Project
+import com.amarerichard.model.callModel.cProject
 import org.bson.types.ObjectId
 
 class Projectservice() {

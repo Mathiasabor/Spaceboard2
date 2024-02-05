@@ -1,6 +1,6 @@
-package com.example.database.connection
+package com.amarerichard.database.connection
 
-import com.example.config.config
+import com.amarerichard.config.config
 import com.mongodb.kotlin.client.coroutine.MongoClient
 import com.mongodb.kotlin.client.coroutine.MongoDatabase
 

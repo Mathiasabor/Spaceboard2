@@ -1,9 +1,7 @@
-package com.example.routes
+package com.amarerichard.routes
 
 
-import com.example.handlers.Projecthandler
-import com.example.services.Projectservice
-import com.example.utils.RabbitMQFactory
+import com.amarerichard.handlers.Projecthandler
 import io.ktor.server.routing.*
 
 fun Route.Projectroutes()

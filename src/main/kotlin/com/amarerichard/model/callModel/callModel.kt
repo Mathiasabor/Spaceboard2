@@ -1,10 +1,9 @@
-package com.example.model.callModel
+package com.amarerichard.model.callModel
 
-import com.example.model.Author
-import com.example.model.Ticket
-import com.example.model.Ticketlist
+import com.amarerichard.model.Author
+import com.amarerichard.model.Ticket
+import com.amarerichard.model.Ticketlist
 import kotlinx.serialization.Serializable
-import kotlinx.serialization.json.JsonElement
 
 @Serializable
 data class cProject(

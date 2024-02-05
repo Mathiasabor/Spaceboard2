@@ -1,14 +1,10 @@
-package com.example.handlers
+package com.amarerichard.handlers
 
 
-import com.example.model.callModel.cProject
-import com.example.model.callModel.cTicket
-import com.example.model.callModel.cTicketlist
-import com.example.services.Projectservice
+import com.amarerichard.model.callModel.cProject
+import com.amarerichard.services.Projectservice
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
-import kotlinx.serialization.json.JsonDecoder
-import kotlinx.serialization.json.JsonElement
 
 suspend fun Controllers(callmodel : Any) : String
 {
