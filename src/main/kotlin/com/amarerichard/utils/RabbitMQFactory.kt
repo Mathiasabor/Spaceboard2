@@ -22,11 +22,8 @@ class RabbitMQFactory {
     private val connectionFactory : ConnectionFactory
     init {
         connectionFactory = ConnectionFactory()
-        connectionFactory.username= config.RABBITMQ_USERNAME
-        connectionFactory.password = config.RABBITMQ_PASSWORD
-        connectionFactory.host = config.RABBITMQ_HOST
-        connectionFactory.port =config.RABBITMQ_PORT
-        connectionFactory.virtualHost =config.RABBITMQ_VIRTUALHOST
+        connectionFactory.setUri("amqp://zUcznfHORlXNSBVQ:U5qsUOYuXDc7yAHWe6hu4ZatVH~akfsL@viaduct.proxy.rlwy.net:21661")
+
     }
 
     fun getConnectionFactory() : ConnectionFactory

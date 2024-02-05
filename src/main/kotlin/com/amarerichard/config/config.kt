@@ -8,10 +8,10 @@ object config {
     const val EXCHANGE_NAME="jijiex"
     const val QUEUE_NAME ="jijiqueue"
     const val ROUTING_KEY="jijikey"
-    const val RABBITMQ_HOST ="localhost"
-    const val RABBITMQ_USERNAME ="guest"
-    const val RABBITMQ_PASSWORD ="guest"
-    const val RABBITMQ_PORT =5672
+    const val RABBITMQ_HOST ="rabbitmq.railway.internal"
+    const val RABBITMQ_USERNAME ="zUcznfHORlXNSBVQ"
+    const val RABBITMQ_PASSWORD ="U5qsUOYuXDc7yAHWe6hu4ZatVH~akfsL"
+    const val RABBITMQ_PORT =15672
     const val RABBITMQ_VIRTUALHOST="/"
 
 }
