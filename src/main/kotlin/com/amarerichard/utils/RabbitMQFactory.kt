@@ -63,9 +63,9 @@ class RabbitMQFactory {
 
             println(message)
 
-            val reu = Json.decodeFromString<cProject>(message)
+            //val reu = Json.decodeFromString<cProject>(message)
 
-            sendMessage("est venu ${ Json.encodeToString(reu)}".toByteArray())
+            sendMessage("est venu ${ Json.encodeToString(message)}".toByteArray())
 
         }
         val cancelCallback = CancelCallback{consumerTag ->
