@@ -26,15 +26,3 @@ suspend fun Controllers(callmodel : Any) : String
     return response
 }
 
-/*
-
- is cTicketlist ->{
-
-            Json.encodeToString(projectservice.getAllProject())
-        }
-
-        is cTicket ->{
-
-            Json.encodeToString(projectservice.getAllProject())
-        }
- */
